@@ -24,7 +24,6 @@ nav
 {
 	background: lightblue;
 	float: top;
-	
 }
 
 table,th,td
@@ -32,8 +31,7 @@ table,th,td
 	margin: auto;
 	text-align:center;
 	font-size:20px;
-	/*border: 1px solid black;*/
-	/*border-collapse: collapse;*/
+	border-collapse: collapse;
 }
 
 table[id="welcomeMSG"]
@@ -44,7 +42,11 @@ table[id="welcomeMSG"]
 td[id="item"],[id="description"]
 {
 	border: 1px solid black;
-	border-collapse: collapse;
+	background: #d4d8fa;
+}
+
+td[id="ad"]
+{
 	background: #d4d8fa;
 }
 
@@ -57,13 +59,25 @@ th[id="thhawkzon"]
 
 th[id="welcome"]
 {
-	font-size:35px;
-	text-align:left;
+	font-size:37px;
+	text-align:center;
+	font-family:Garamond;  
 }
 
 td[id="welcome2"]
 {
-	font-size:20px;
-	text-align:left;
+	font-size:23px;
+	text-align:center;
+	font-family:Garamond;  
 }
 
+th[id="recommendations"],[id="stationery"],[id="uniforms"],[id="sports"],[id="miscellaneous"]
+{
+	font-size:30px;
+	background-color: #77a2f9;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
